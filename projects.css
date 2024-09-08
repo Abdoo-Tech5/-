@@ -1,0 +1,65 @@
+* {
+    font-family: "Rubik", sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.title {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 40px;
+    background: linear-gradient(#0098fd,#de8041,#02569e);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Projects {
+    background-color: aliceblue;
+}
+
+.project_card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.project_card:hover {
+    transform: scale(1.05);
+}
+
+.project_img {
+    width: 100%;
+    height: auto;
+}
+
+#project_info_web, #project_info_game, #project_info_app {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 15px;
+}
+.col-md-4{
+    margin-bottom: 50px;
+}
+
+.project_category {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.project_title {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.more_details {
+    color: rgb(127, 166, 233);
+    text-decoration: none;
+}
+
+.more_details:hover {
+    color: red;
+}
